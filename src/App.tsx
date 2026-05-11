@@ -779,8 +779,8 @@ export default function App() {
                   </div>
                   <div>
                     <label className="block text-sm font-bold text-slate-700 mb-2">Dòng Sản Phẩm Quan Tâm <span className="text-[#d31820]">*</span></label>
-                    <select required className="w-full px-5 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:bg-white focus:ring-4 focus:ring-[#065e9b]/10 focus:border-[#065e9b] outline-none transition-all font-semibold text-slate-800 cursor-pointer">
-                      <option value="" disabled selected>-- Chọn dòng sản phẩm --</option>
+                    <select required defaultValue="" className="w-full px-5 py-3.5 rounded-xl bg-slate-50 border border-slate-200 focus:bg-white focus:ring-4 focus:ring-[#065e9b]/10 focus:border-[#065e9b] outline-none transition-all font-semibold text-slate-800 cursor-pointer">
+                      <option value="" disabled>-- Chọn dòng sản phẩm --</option>
                       <option value="singlemode">Dây nhảy Single-mode (OS2)</option>
                       <option value="multimode">Dây nhảy Multimode (OM3/OM4/OM5)</option>
                       <option value="mpo-mtp">Dây nhảy MPO/MTP</option>
