@@ -198,19 +198,6 @@ export default function App() {
               </div>
 
               {/* Floating badges */}
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-2xl flex items-center gap-3 border-l-4 border-[#d31820] animate-bounce-slow hidden sm:flex">
-                <div className="bg-green-100 p-2 rounded-full">
-                  <CheckCircle2 className="h-6 w-6 text-green-600" />
-                </div>
-                <div>
-                  <div className="text-xs text-slate-500 font-bold uppercase">
-                    Hiệu Suất Thực Tế
-                  </div>
-                  <div className="font-extrabold text-[#065e9b]">
-                    Suy Hao {"<"} 0.15dB
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
